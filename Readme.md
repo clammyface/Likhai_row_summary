@@ -147,3 +147,11 @@ LikhAI will be shipped as an internal Google Sheets Add-on to enable cross-org u
 LikhAI simplifies row-level intelligence and table summarization using LLMs. Thanks to collaboration with the product team, it’s tailored to their real workflow and already shows significant time savings in support triage, reporting, and feature tagging.
 
 > Built for speed, built with empathy. 🌱
+## ⚠️ Known Issues & Errors
+
+### ❗1. "Missing response" Error
+
+Sometimes the formula (`=LIKHAI.ROW(...)`) returns blank output or shows `"Missing response"` in the result cell.
+### ❗2. Row Output Misalignment (Answer Skips to Next Row)
+
+Even when a valid response is received, the output may appear **line-by-line in consecutive rows**, instead of all in a single cell.
